@@ -1,0 +1,20 @@
+---
+- hosts: all
+  name: set up lighttpd for virtual hosting
+  vars:
+    ansible_user: management
+    domains:
+      - domain1.com
+      - domain2.com
+      - domain3.com
+  
+  roles:
+    - mrlesmithjr.lighttpd
+
+  tasks:
+    - name: report the role variables 
+      debug:
+        var: lighttpd_config_file
+    - name: 
+
+

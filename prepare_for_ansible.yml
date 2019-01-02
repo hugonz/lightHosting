@@ -1,0 +1,12 @@
+---
+- hosts: all
+  name: Make dependencies for getting started with ansible on the client
+  user: root
+
+  roles:
+    # default user for the role is "management"
+    - robertdebock.bootstrap
+    - GROG.management-user
+  
+    
+

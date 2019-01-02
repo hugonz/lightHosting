@@ -1,0 +1,6 @@
+This is a simple playbook to create a bunch of virtualhosts in my virtual hosting style.
+
+
+
+
+
