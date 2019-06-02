@@ -1,0 +1,11 @@
+---
+# defaults file for lightHosting
+lighttpd_config_dir: /etc/lighttpd/conf
+lighttpd_default_vhosts_dir: /var/www/vhosts
+
+install_php_fastcgi: no
+#Unix domain sockets for fastcgi live here
+fastcgi_dir: /var/www/fastcgi/startup
+#Only startup scripts for fastcgi processes live here
+fastcgi_script_dir: /var/www/fastcgi/startup
+fastcgi_user: ~
